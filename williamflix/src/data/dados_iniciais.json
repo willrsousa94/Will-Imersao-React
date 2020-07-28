@@ -50,7 +50,7 @@
       ]
     },
     {
-      "titulo": "Cursos e Afins",
+      "titulo": "Tecnologia&Aprendizado",
       "cor": "#9cd33b",
       "link_extra": {
         "text": "Cursos da Alura - Acessa lá :)",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Jogos&Gameplays",
       "cor": "red",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
@@ -116,11 +116,19 @@
         {
           "titulo": "Pokémon Let's Go Pikachu/Eevee",
           "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        },
+        {
+          "titulo": "COMO O JUKES REALMENTE JOGA LEAGUE OF LEGENDS",
+          "url": "https://www.youtube.com/watch?v=NvYykY-6Srw"
+        },
+        {
+          "titulo": "New Dungeon Screenshots - Memes - Giana Acct Summons & More (Summoners War)",
+          "url": "https://www.youtube.com/watch?v=0xM0kkkrvQg"
         }
       ]
     },
     {
-      "titulo": "Videos gameplays e afins",
+      "titulo": "Desenhos&Animes",
       "cor": "#6b5be2",
       "link_extra": {
         "text": "",
@@ -128,8 +136,8 @@
       },
       "videos": [
         {
-          "titulo": "COMO O JUKES REALMENTE JOGA LEAGUE OF LEGENDS",
-          "url": "https://www.youtube.com/watch?v=NvYykY-6Srw"
+          "titulo": "Hora de aventura episódio: assinatura de calor completo dublado em português",
+          "url": "https://www.youtube.com/watch?v=BJDilObR914"
         },
         {
           "titulo": "New Dungeon Screenshots - Memes - Giana Acct Summons & More (Summoners War)",

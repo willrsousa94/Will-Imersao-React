@@ -12,6 +12,7 @@ export const Title = styled.h3`
   line-height: 1;
   border-radius: 4px;
 
+  
   @media (max-width: 800px) {
     font-size: 18px;
     padding: 10px;
@@ -41,10 +42,28 @@ export const VideoCardList = styled.ul`
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  
+
   li {
     margin-right: 16px;
   }
+
+  @media (min-width: 801px) {
+    ::-webkit-scrollbar {
+      height: 12px;
+    }
+
+    ::-webkit-scrollbar-track{
+      background: red;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: black;
+      border-radius: 15px;
+      border: 2px solid red;
+    }
+  }
+
+  
 `;
 
 export const VideoCardGroupContainer = styled.section`

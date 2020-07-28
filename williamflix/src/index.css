@@ -20,19 +20,7 @@ body {
   padding: 0;
 }
 
-ul::-webkit-scrollbar {
-  height: 12px;
-}
 
-ul::-webkit-scrollbar-track{
-  background: red;
-}
-
-ul::-webkit-scrollbar-thumb {
-  background-color: black;
-  border-radius: 15px;
-  border: 2px solid red;
-}
 
 a {
   color: inherit;

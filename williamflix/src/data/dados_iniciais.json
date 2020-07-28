@@ -1,101 +1,69 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Músicas",
+      "link": "https://umpenapoesia.home.blog/",
+      "cor": "#BBD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Veja também meu blog - Um pé na poesia",
+        "url": "https://umpenapoesia.home.blog/"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Eu não sei na verdade quem eu sou - O Teatro Mágico",
+          "url": "https://www.youtube.com/watch?v=Hlj8EtVoRi8"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Jason Mraz - Love Someone",
+          "url": "https://www.youtube.com/watch?v=J74Y6kDDTkM"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Ed Sheeran - Lego Hhouse",
+          "url": "https://www.youtube.com/watch?v=c4BLVznuWnU"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-        },
-        {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-        },
-        {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
-      ]
-    },
-    {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-        },
-        {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Pearl Jam - Just Breathe",
+          "url": "https://www.youtube.com/watch?v=aePWkeDxRjE"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Videos",
+      "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Videos gerais",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Pé na Porta, Justiça na cara (Gaveta)",
+          "url": "https://www.youtube.com/watch?v=6yHZJlAuIf0"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Edições de vídeo FANTÁSTICAS! E outras nem tanto... | GAVETA",
+          "url": "https://www.youtube.com/watch?v=OvEZ9yXKyLM"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "FETÚCIA CONHECENDO A NOVA INTEGRANTE DA FAMÍLIA NINÔNICA | MINI-PIG",
+          "url": "https://www.youtube.com/watch?v=z2hddQaDp4g"
+        }
+      ]
+    },
+    {
+      "titulo": "Cursos e Afins",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos da Alura - Acessa lá :)",
+        "url": "https://www.alura.com.br/"
+      },
+      "videos": [
+        {
+          "titulo": "Imersão React Live #01 - Analisando o front-end do Netflix, do Spotify e do Ifood",
+          "url": "https://www.youtube.com/watch?v=Dcn-tVmSxyU"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Curso de HTML5 - 00 - Site Completo - by Gustavo Guanabara",
+          "url": "https://www.youtube.com/watch?v=epDCjksKMok"
         }
       ]
     },
@@ -152,7 +120,7 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Videos gameplays e afins",
       "cor": "#6b5be2",
       "link_extra": {
         "text": "Curso sobre aprendizado na Alura",
@@ -160,24 +128,12 @@
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "COMO O JUKES REALMENTE JOGA LEAGUE OF LEGENDS",
+          "url": "https://www.youtube.com/watch?v=NvYykY-6Srw"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "New Dungeon Screenshots - Memes - Giana Acct Summons & More (Summoners War)",
+          "url": "https://www.youtube.com/watch?v=0xM0kkkrvQg"
         }
       ]
     }

@@ -24,6 +24,13 @@ export const VideoCardContainer = styled.a`
   &:focus {
     opacity: .5;
   }
+
+  &:hover{
+    opacity: 1;
+    width: calc(298px*1.2);
+    height: calc(197px*1.04);
+    border: 4px solid;
+  }
   
   &:not(:first-child) {
     margin-left: 20px;

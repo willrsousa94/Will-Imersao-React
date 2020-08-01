@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import PropTypes from 'prop-types';
 
 export const FormBase = styled.div`
 
@@ -66,19 +67,17 @@ export const Input = styled.input`
     }}
 `
 
-
-
-
-
 function FormField({label, type, name, value, onChange }) {
 
+  const fieldId = `id_${name}`
   const isTypeTextArea = type === 'textarea';
   const tag = isTypeTextArea ? 'textarea' : 'input'
 
+  console.log(type);
   return (
     <FormBase>
       <Label 
-        for={name}
+        htmlFor={fieldId}
       >
         <Input
           as={tag}
@@ -86,7 +85,7 @@ function FormField({label, type, name, value, onChange }) {
           value={value}
           name={name}
           onChange={onChange}
-          id={name}
+          id={fieldId}
         />
         <Label.Text>
           {label}
@@ -97,5 +96,18 @@ function FormField({label, type, name, value, onChange }) {
   )
 }
 
+FormBase.defaultProps = {
+  type: 'text',
+  value: '',
+  onChange: () => {},
+}
+
+FormField.propTypes = {
+  label: PropTypes.string.isRequired,
+  type: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  value: PropTypes.string,
+  onChange: PropTypes.func,
+}
 
 export default FormField;

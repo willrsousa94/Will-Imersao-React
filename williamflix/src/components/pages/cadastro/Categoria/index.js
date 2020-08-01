@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../PageDefault';
 import FormField from '../../../FormField';
-import Button from '../../../Button';
-
 
 function CadastroCategoria() {
   let valoresIniciais = {
@@ -32,6 +30,39 @@ function CadastroCategoria() {
       infosDoEvento.target.value
     );
   }
+
+  useEffect(() => {
+    console.log('alo alo w brasil');
+
+    const URL = 'http://localhost:8080/categorias';
+
+    fetch(URL).then( async (respostaDoServidor) => {
+      const resposta = await respostaDoServidor.json();
+      setCategorias([
+        ...resposta,
+      ]);
+  });
+
+
+    // setTimeout(() => {
+    //   setCategorias([
+    //     ...categorias,
+    //     {
+    //       id: 1,
+    //       nome: 'Front End',
+    //       descricao: 'Uma categoria bacanudassa',
+    //       cor: '#cbd1ff',
+    //     },
+    //     {
+    //       id: 2,
+    //       nome: 'Front End',
+    //       descricao: 'Outra categoria bacanudassa',
+    //       cor: '#cbd1ff',
+    //     }
+    //   ]);
+    // }, 4 * 1000);
+  }, []);
+
   return (
     <PageDefault>
       <h1>Cadastrar Categoria: {values.nome}</h1>
@@ -47,14 +78,14 @@ function CadastroCategoria() {
       }}>
         {/* State */}
         <FormField
-          label="Nome da Categoria "
+          label="Nome da Categoria"
           type="text"
           value={values.nome}
           name="nome"
           onChange={handleChange}
         />
 
-        <FormField 
+        <FormField
           label="Descrição"
           name="descricao"
           type="textarea"
@@ -91,11 +122,18 @@ function CadastroCategoria() {
             />
           </label>
         </div> */}
-        <Button>
+        <button type="submit">
           Cadastrar
-          </Button>
-      </form>
+        </button>
 
+
+      </form>
+      {categorias.length === 0 && (
+      <div>
+        Loading...
+      </div>
+      )}
+      
       <ul>
         {categorias.map((categoria, indice) => {
           return (

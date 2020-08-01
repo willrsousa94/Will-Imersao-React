@@ -73,7 +73,6 @@ function FormField({label, type, name, value, onChange }) {
   const isTypeTextArea = type === 'textarea';
   const tag = isTypeTextArea ? 'textarea' : 'input'
 
-  console.log(type);
   return (
     <FormBase>
       <Label 
